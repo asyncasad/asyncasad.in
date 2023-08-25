@@ -1,1 +1,12 @@
 export { default as Asyncasadlogo } from './asyncasadlogo';
+export { default as Discord } from './discord';
+export { default as Facebook } from './facebook';
+export { default as Github } from './github';
+export { default as Instagram } from './instagram';
+export { default as LinkedIn } from './linked-in';
+export { default as Mail } from './mail';
+export { default as MechaLogo } from './mecha-logo';
+export { default as Moon } from './moon';
+export { default as Pinterest } from './pinterest';
+export { default as Sun } from './sun';
+export { default as X } from './x';

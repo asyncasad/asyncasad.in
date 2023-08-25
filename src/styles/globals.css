@@ -3,25 +3,50 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --foreground: #010100;
+  --background: #fefeff;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.dark {
+  --foreground: #ebf4f1;
+  --background: #0e0d0d;
+}
+
+.rock {
+  --foreground: #16bae8;
+  --background: #030203;
+}
+.disco {
+  --foreground: #c3a0e2;
+  --background: #1d1d1c;
+}
+.monochrome {
+  --foreground: #dba093;
+  --background: #1d1d1c;
+}
+
+/* Selection of the text code */
+::-moz-selection {
+  /* Code for Firefox */
+  color: #ebf4f1;
+  background: #0e0d0d;
+}
+.dark ::-moz-selection {
+  /* Code for Firefox */
+  color: #0e0d0d;
+  background: #ebf4f1;
+}
+::selection {
+  color: #ebf4f1;
+  background: #0e0d0d;
+}
+.dark ::selection {
+  color: #0e0d0d;
+  background: #ebf4f1;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground;
   }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
 }
