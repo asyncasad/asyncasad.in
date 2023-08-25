@@ -1,5 +1,7 @@
-# Scalable Nextjs Architecture 💹
+# asyncasad.in 📈
+Minimal and beautiful looking personal portfolio website. Including sections such as Bio, Projects and Socials with dark and light theme mode toggle ☀.
+#minimalportfolio
 
-Highly scalable and organised folder structure for your next Nextjs project. Includes svgr for svg icon component generation and tailwind utility functions.
+### Made using
 
-This is a great template to start a Nextjs project. Contains custom eslint and prettier configurations for consistent code.
+![Ezicons](https://ezicons.cftutorial.workers.dev/icons/?icons=skills-light-typescript,skills-light-tailwind,skills-light-nextjs)
