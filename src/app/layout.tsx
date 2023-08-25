@@ -11,7 +11,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="transition duration-500">
+      <body className="transition duration-200">
         <ThemeProvider
           attribute="class"
           enableSystem={false}
