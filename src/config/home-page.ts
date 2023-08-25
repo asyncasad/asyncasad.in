@@ -42,7 +42,7 @@ export const home_page_config: HomePageConfig = {
       title: 'Scalable Nextjs template',
       description:
         'Nextjs template: Build robust Next.js apps effortlessly! Your go-to template for the next project. 🚀🌐 #Scalable',
-      link: 'https://github.com/asyncasad/scalable-nextjs-architecture',
+      link: 'https://github.com/asyncasad/next-archi',
     },
   ],
   experiences: [
