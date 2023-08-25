@@ -29,7 +29,7 @@ export const home_page_config: HomePageConfig = {
     {
       title: 'Ezicons',
       description:
-        'Simplify icon integration! Ezicons: Your go to place for seamless icon usage anywhere, from GitHub ReadMe to websites. 🎉🖼️ #Ezicons',
+        'Simplify icon integration! Ezicons: Your go to place for seamless icon usage anywhere, from GitHub ReadMe to Websites. 🎉🖼️ #Ezicons',
       link: 'https://github.com/asyncasad/ezicons',
     },
     {
