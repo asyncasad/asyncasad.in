@@ -1,5 +1,6 @@
 import { ThemeProvider } from '@/components/theme-provider';
 import { cn } from '@/lib/utils';
+import { Analytics } from '@vercel/analytics/react';
 import { Fira_Code } from 'next/font/google';
 import '../styles/custom.css';
 import '../styles/globals.css';
@@ -25,6 +26,7 @@ export default function RootLayout({
             )}
           >
             {children}
+            <Analytics />
           </div>
         </ThemeProvider>
       </body>
