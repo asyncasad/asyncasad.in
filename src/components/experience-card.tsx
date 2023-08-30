@@ -12,6 +12,7 @@ const ExperienceCard: FC<ExperienceCardProps> = ({ experience, pageLink }) => {
   return (
     <Link
       href={pageLink}
+      target="_blank"
       className="flex transform cursor-pointer flex-row items-center justify-between rounded-sm border  border-foreground p-2 duration-200 ease-in-out hover:scale-105"
     >
       <div className="flex flex-row items-center">
@@ -25,7 +26,8 @@ const ExperienceCard: FC<ExperienceCardProps> = ({ experience, pageLink }) => {
         </div>
       </div>
       <div>
-        <p>{date}</p>
+        <p className="hidden md:block">{date}</p>
+        <p className="text-sm md:hidden">{role}</p>
       </div>
     </Link>
   );

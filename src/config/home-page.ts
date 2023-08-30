@@ -51,12 +51,14 @@ export const home_page_config: HomePageConfig = {
       date: 'Jul 2023',
       role: 'SDE-Fulltime',
       icon: '/imgs/experience/mecha_banner.png',
+      link: 'https://www.mechasystems.com/',
     },
     {
       comapny_name: 'Mecha Systems',
       date: 'Feb 2023',
       role: 'SDE-Intern',
       icon: '/imgs/experience/mecha_banner.png',
+      link: 'https://www.mechasystems.com/',
     },
   ],
   socials: [

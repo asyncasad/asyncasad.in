@@ -25,7 +25,7 @@ const ExperienceCardContainer: FC<ExperienceCardContainerProps> = ({
         <ExperienceCard
           experience={experience}
           key={index}
-          pageLink={`work/${index}`}
+          pageLink={experience.link}
         />
       ))}
       {shouldShowButton && (

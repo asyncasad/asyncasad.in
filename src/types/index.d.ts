@@ -29,6 +29,7 @@ export type Experience = {
   date: string;
   icon: string;
   role: string;
+  link: string;
 };
 export type HomePageConfig = {
   avatar: string;
