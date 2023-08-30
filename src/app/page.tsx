@@ -12,9 +12,8 @@ import Link from 'next/link';
 import { Key } from 'react';
 
 export const metadata: Metadata = {
-  title: 'asyncasad.in',
-  description:
-    'Portfolio website of a fullstack developer building blazing fast web apps with Nextjs, Tailwind and Typescript as core techstack.',
+  title: 'AsadKhan Pathan',
+  description: 'Developer, designer and creator.',
 };
 
 export default function Home() {
