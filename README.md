@@ -4,4 +4,4 @@ Minimal and beautiful looking personal portfolio website. Including sections suc
 
 ### Made using
 
-![Ezicons](https://ezicons.cftutorial.workers.dev/icons/?icons=skills-light-typescript,skills-light-tailwind,skills-light-nextjs)
+
