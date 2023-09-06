@@ -33,12 +33,6 @@ export const home_page_config: HomePageConfig = {
       link: 'https://github.com/asyncasad/ezicons',
     },
     {
-      title: 'Twitmoji',
-      description:
-        'Twitmoji: Express without words! T3-powered app resembling Twitter, sharing emotions and thoughts through emojis alone. 🚀📱 #EmojiExpression',
-      link: 'https://github.com/asyncasad/twitmoji',
-    },
-    {
       title: 'Scalable Nextjs template',
       description:
         'Nextjs template: Build robust Next.js apps effortlessly! Your go-to template for the next project. 🚀🌐 #Scalable',
