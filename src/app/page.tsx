@@ -1,6 +1,5 @@
 import ContactCard from '@/components/contact-card';
 import ExperienceCardContainer from '@/components/experience-card-container';
-import LogoThemer from '@/components/logo-themer';
 import ProjectCardContainer from '@/components/project-card-container';
 import Separator from '@/components/separator';
 import SkillTag from '@/components/skill-tag';
@@ -10,6 +9,7 @@ import { Contact, Skill } from '@/types';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Key } from 'react';
+import { Asyncasadlogo } from '../../public/svgs/icons/iconcomponents';
 
 export const metadata: Metadata = {
   title: 'AsadKhan Pathan',
@@ -22,7 +22,7 @@ export default function Home() {
       <section className="mt-4">
         {/* Name and bio section */}
         <header>
-          <LogoThemer />
+          <Asyncasadlogo className="h-[80px] w-[80px]" />
           {/* <Asyncasadlogo className="h-[80px] w-[80px]" /> */}
           <h1 className="mt-8 text-3xl font-bold">{home_page_config.name}</h1>
           <p className="mt-4 text-left dark:opacity-80">
