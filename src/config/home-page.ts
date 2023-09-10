@@ -16,13 +16,10 @@ export const home_page_config: HomePageConfig = {
     'Nextjs',
     'Reactjs',
     'Typescript',
-    'TailwindCss',
     'Javascript',
+    'TailwindCss',
     'Node',
     'Figma',
-    'Prisma',
-    'Trpc',
-    'T3',
   ],
   // Make the project description of lengthe atleas greater than 123
   projects: [

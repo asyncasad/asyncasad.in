@@ -1,10 +1,17 @@
 import { ThemeProvider } from '@/components/theme-provider';
 import { cn } from '@/lib/utils';
 import { Analytics } from '@vercel/analytics/react';
+import { Metadata } from 'next';
 import { Fira_Code } from 'next/font/google';
 import '../styles/custom.css';
 import '../styles/globals.css';
 const fira = Fira_Code({ subsets: ['latin'] });
+
+export const metadata: Metadata = {
+  title: 'AsadKhan Pathan',
+  description: 'Developer, designer and creator.',
+};
+
 export default function RootLayout({
   children,
 }: {
@@ -16,8 +23,8 @@ export default function RootLayout({
         <ThemeProvider
           attribute="class"
           enableSystem={false}
-          defaultTheme="light"
-          themes={['light', 'dark', 'rock', 'disco', 'monochrome']}
+          defaultTheme="dark"
+          themes={['light', 'dark']}
         >
           <div
             className={cn(
