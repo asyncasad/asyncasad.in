@@ -23,7 +23,7 @@ export default function RootLayout({
         <ThemeProvider
           attribute="class"
           enableSystem={false}
-          defaultTheme="dark"
+          defaultTheme="light"
           themes={['light', 'dark']}
         >
           <div
