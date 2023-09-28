@@ -38,7 +38,7 @@ export default function Home() {
             ))}
           </ul>
           <div>
-            <ThemeToggler />
+{/*             <ThemeToggler /> */}
           </div>
         </nav>
         {/* Skill tags */}
