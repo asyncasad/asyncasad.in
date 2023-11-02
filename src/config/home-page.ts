@@ -45,11 +45,18 @@ export const home_page_config: HomePageConfig = {
       link: 'https://www.mechasystems.com/',
     },
     {
-      comapny_name: 'Mecha Systems',
+      comapny_name: 'Actonate IT',
       date: 'Feb 2023',
       role: 'SDE-Intern',
-      icon: '/imgs/experience/mecha_banner.png',
-      link: 'https://www.mechasystems.com/',
+      icon: '/imgs/experience/actonate_banner.jpg',
+      link: 'https://actonate.com/',
+    },
+    {
+      comapny_name: 'Shraddha',
+      date: 'July 2020',
+      role: 'Comission',
+      icon: '/imgs/experience/shraddha_banner.jpg',
+      link: 'https://www.shraddhafabrication.in/',
     },
   ],
   socials: [

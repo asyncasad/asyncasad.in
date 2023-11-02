@@ -1,4 +1,3 @@
-import { ThemeProvider } from '@/components/theme-provider';
 import { cn } from '@/lib/utils';
 import { Analytics } from '@vercel/analytics/react';
 import { Metadata } from 'next';
@@ -20,22 +19,22 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="transition duration-200">
-        <ThemeProvider
+        {/* <ThemeProvider
           attribute="class"
           enableSystem={false}
           defaultTheme="light"
           themes={['light', 'dark']}
+        > */}
+        <div
+          className={cn(
+            'font-fira-code my-10 px-8  md:mx-auto md:my-20 md:w-[750px] md:px-0',
+            fira.className
+          )}
         >
-          <div
-            className={cn(
-              'font-fira-code my-10 px-8  md:mx-auto md:my-20 md:w-[750px] md:px-0',
-              fira.className
-            )}
-          >
-            {children}
-            <Analytics />
-          </div>
-        </ThemeProvider>
+          {children}
+          <Analytics />
+        </div>
+        {/* </ThemeProvider> */}
       </body>
     </html>
   );
