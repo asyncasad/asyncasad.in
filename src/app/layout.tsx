@@ -1,7 +1,6 @@
-"use client";
+import { ThemeProvider } from '@/components/theme-provider';
 import { cn } from '@/lib/utils';
 import { Analytics } from '@vercel/analytics/react';
-import { ThemeProvider } from 'next-themes';
 import { Fira_Code } from 'next/font/google';
 import '../styles/custom.css';
 import '../styles/globals.css';
