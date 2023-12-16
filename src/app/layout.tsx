@@ -1,17 +1,12 @@
-"use client"
+"use client";
 import { cn } from '@/lib/utils';
 import { Analytics } from '@vercel/analytics/react';
-import { Metadata } from 'next';
 import { ThemeProvider } from 'next-themes';
 import { Fira_Code } from 'next/font/google';
 import '../styles/custom.css';
 import '../styles/globals.css';
 const fira = Fira_Code({ subsets: ['latin'] });
 
-export const metadata: Metadata = {
-  title: 'AsadKhan Pathan',
-  description: 'Developer, designer and creator.',
-};
 
 export default function RootLayout({
   children,

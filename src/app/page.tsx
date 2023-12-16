@@ -6,10 +6,16 @@ import SkillTag from '@/components/skill-tag';
 import ThemeToggler from '@/components/theme-togller';
 import { home_page_config } from '@/config/home-page';
 import { Contact, Skill } from '@/types';
+import { Metadata } from 'next';
 import Link from 'next/link';
+
 import { Key } from 'react';
 import { Asyncasadlogo } from '../../public/svgs/icons/iconcomponents';
 
+export const metadata: Metadata = {
+  title: 'AsadKhan Pathan',
+  description: 'Developer, designer and creator.',
+};
 export default function Home() {
   return (
     <main>
