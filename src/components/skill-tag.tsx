@@ -6,7 +6,7 @@ interface SkillTagProps {
 
 const SkillTag: FC<SkillTagProps> = ({ skill }) => {
   return (
-    <div className="hover:-translate-y-3 cursor-pointer transform rounded-sm border border-foreground  px-2 py-1  text-foreground duration-200 ease-in-out">
+    <div className="transform rounded-sm border border-foreground  px-2 py-1  text-foreground">
       <p className="">{skill}</p>
     </div>
   );

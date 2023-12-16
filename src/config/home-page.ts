@@ -10,7 +10,7 @@ import {
 
 export const home_page_config: HomePageConfig = {
   avatar: '/imgs/asyncasadgrayscale.png',
-  bio: "Hey there, I'm Asad, and you might recognize me as asyncasad online. I'm a fulltack developer and an illustrator. I like to build blazing fast ⚡ and good looking web apps.",
+  bio: "Hey there, I'm Asad, and you might recognize me as asyncasad online. I'm a fullstack developer. I like to build blazing fast ⚡ and good looking web apps.",
   name: 'AsadKhan Pathan',
   skills: [
     'Nextjs',

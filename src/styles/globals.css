@@ -8,41 +8,28 @@
 }
 
 .dark {
-  --foreground: #ebf4f1;
-  --background: #0e0d0d;
-}
-
-.rock {
-  --foreground: #16bae8;
-  --background: #030203;
-}
-.disco {
-  --foreground: #c3a0e2;
-  --background: #1d1d1c;
-}
-.monochrome {
-  --foreground: #dba093;
-  --background: #1d1d1c;
+  --foreground: #dde1e2;
+  --background: #111416;
 }
 
 /* Selection of the text code */
 ::-moz-selection {
   /* Code for Firefox */
-  color: #ebf4f1;
-  background: #0e0d0d;
+  color: #dde1e2;
+  background: #111416;
 }
 .dark ::-moz-selection {
   /* Code for Firefox */
-  color: #0e0d0d;
-  background: #ebf4f1;
+  color: #111416;
+  background: #dde1e2;
 }
 ::selection {
-  color: #ebf4f1;
-  background: #0e0d0d;
+  color: #dde1e2;
+  background: #111416;
 }
 .dark ::selection {
-  color: #0e0d0d;
-  background: #ebf4f1;
+  color: #111416;
+  background: #dde1e2;
 }
 
 @layer base {
