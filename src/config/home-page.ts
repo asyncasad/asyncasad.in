@@ -29,12 +29,6 @@ export const home_page_config: HomePageConfig = {
         'Simplify icon integration! Ezicons: Your go to place for seamless icon usage anywhere, from GitHub ReadMe, Websites to Resumes. 🎉🖼️ #Ezicons',
       link: 'https://github.com/asyncasad/ezicons',
     },
-    {
-      title: 'Scalable Nextjs template',
-      description:
-        'Nextjs template: Build robust Next.js apps effortlessly! Your go-to template for the next project. 🚀🌐 #Scalable',
-      link: 'https://github.com/asyncasad/next-archi',
-    },
   ],
   experiences: [
     {
