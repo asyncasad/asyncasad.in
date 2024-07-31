@@ -13,7 +13,7 @@ import { Key } from 'react';
 import { Asyncasadlogo } from '../../public/svgs/icons/iconcomponents';
 
 export const metadata: Metadata = {
-  title: 'AsadKhan Pathan',
+  title: 'Asadkhan Pathan',
   description: 'Developer, designer and creator.',
 };
 export default function Home() {
